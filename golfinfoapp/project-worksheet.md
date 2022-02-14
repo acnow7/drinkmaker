@@ -3,7 +3,8 @@ The Golf Info App.
 
 
 ## Project Links 
-- [Project Github Repository](https://git.generalassemb.ly/acnow/golfReact-)
+- [Project Github Repository](https://git.generalassemb.ly/acnow/golfReact-)  
+
 - [Deployment Link]()
 
 
@@ -23,8 +24,8 @@ Here is a sample of data fetched. [Data Fetch](http://api.sportradar.us/golf/tri
 
 ## Wireframes
 
-- [Mobile](/mobile.jpg), Minimalist look, hamburger menu on the topleft corner, all in one column. 
-- [Desktop](/desktop.jpg) Hamburger menu transitions to an inline flex menu, home page with logo and actual ranking leaderboard.  
+- [Mobile](/IMG_0044.jpg), Minimalist look, hamburger menu on the topleft corner, all in one column. 
+- [Desktop](/IMG_0045.jpg) Hamburger menu transitions to an inline flex menu, home page with logo and actual ranking leaderboard.  
 
 ## MVPS
 
