@@ -4,7 +4,7 @@ The Golf Info App.
 
 ## Project Links 
 - [Project Github Repository](https://git.generalassemb.ly/acnow/golfReact-)
--[Deployment Link]()
+- [Deployment Link]()
 
 
 ## Project Description
@@ -30,7 +30,7 @@ Here is a sample of data fetched. [Data Fetch](http://api.sportradar.us/golf/tri
 
 |  Components | Priority | Estimated Time | Actual Time Invested
 |---|---| ---| ---|
-|Basic layout Idea and frame| H | 3 hrs | 2.5hrs 
+|Basic layout Idea and frame| H | 3 hrs | 4.5hrs 
 | CSS and styling | H | 6 hrs | --hrs | --hrs 
 |API data doc and retrieval| H | 16 hrs | --hrs
 |User Input Fields functionality| H | 5hrs | --hrs  
