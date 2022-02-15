@@ -26,7 +26,7 @@ Here is a sample of data fetched. [Data Fetch](http://api.sportradar.us/golf/tri
 
 - [Mobile](/IMG_0044.jpg), Minimalist look, hamburger menu on the topleft corner, all in one column. 
 - [Desktop](/IMG_0045.jpg) Hamburger menu transitions to an inline flex menu, home page with logo and actual ranking leaderboard. 
-- [React Tree](image0.jpg) My React Tree framwork
+- [React Tree](image0.jpeg) My React Tree framwork
 
 ## MVPS
 
