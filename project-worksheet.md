@@ -25,13 +25,14 @@ Here is a sample of data fetched. [Data Fetch](http://api.sportradar.us/golf/tri
 ## Wireframes
 
 - [Mobile](/IMG_0044.jpg), Minimalist look, hamburger menu on the topleft corner, all in one column. 
-- [Desktop](/IMG_0045.jpg) Hamburger menu transitions to an inline flex menu, home page with logo and actual ranking leaderboard.  
+- [Desktop](/IMG_0045.jpg) Hamburger menu transitions to an inline flex menu, home page with logo and actual ranking leaderboard. 
+- [React Tree](image0.jpg) My React Tree framwork
 
 ## MVPS
 
 |  Components | Priority | Estimated Time | Actual Time Invested
 |---|---| ---| ---|
-|Basic layout Idea and frame| H | 3 hrs | 4.5hrs 
+|Basic layout Idea and frame| H | 3 hrs | 5hrs 
 | CSS and styling | H | 6 hrs | --hrs | --hrs 
 |API data doc and retrieval| H | 16 hrs | --hrs
 |User Input Fields functionality| H | 5hrs | --hrs  
