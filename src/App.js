@@ -1,24 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState, useEffect } from "react";
+
 
 function App() {
+  const [poke, setPokeList] = useState([]);
+  
+
+  useEffect(() => {
+  const url = `https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin`
+  fetch(url)
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data.drinks);
+    setPokeList(data.drinks)
+  })
+}, []);
+
+
+  const list = poke.map((name1, index) => (
+    <p className="listClick"
+      key={index}
+          >
+      {name1.strDrink}
+    </p>
+  ));
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div>
+          {list}
     </div>
+    </>
   );
 }
 
