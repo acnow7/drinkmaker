@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 
 function App() {
-  const [poke, setPokeList] = useState([]);
+  const [drink, setDrink] = useState([]);
   
 
   useEffect(() => {
@@ -13,16 +13,19 @@ function App() {
   .then((response) => response.json())
   .then((data) => {
     console.log(data.drinks);
-    setPokeList(data.drinks)
+    setDrink(data.drinks)
   })
 }, []);
 
 
-  const list = poke.map((name1, index) => (
+  const list = drink.map((name1, index) => (
     <p className="listClick"
       key={index}
           >
       {name1.strDrink}
+      <img src={name1.strDrinkThumb} alt="drink" width={'150px'} />
+      <button onClick={() => console.log(name1.strDrinkThumb)}>Add to My Team</button>
+      
     </p>
   ));
 
