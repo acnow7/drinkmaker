@@ -1,5 +1,12 @@
-.App {
+body {
+  padding: 20px;
+}
+.alcohol-Menu {
+  padding: 10px;
+}
+.header {
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.445);
 }
 
 .App-logo {
@@ -27,7 +34,14 @@
 .App-link {
   color: #61dafb;
 }
-
+.form-search {
+  text-align: left;
+  width: 340px;
+}
+.row {
+  background-color: lightgray;
+  padding: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +50,19 @@
     transform: rotate(360deg);
   }
 }
+
+.home-Image {  
+  width: auto;  
+  height: 600px;
+
+  padding: 15px;  
+  border: 3px solid rgb(0, 0, 0);  
+  background-image: url("https://cocktailsg.files.wordpress.com/2013/05/cocktails-galore.jpg");
+
+  background-repeat: no-repeat;
+opacity: .7;
+  background-size: 100% 100%;
+  }  
+  .form-search {
+    padding-top:5px
+  }
