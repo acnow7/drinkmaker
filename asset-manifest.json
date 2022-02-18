@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/drinkmaker/static/css/main.aaa2de7f.css",
-    "main.js": "/drinkmaker/static/js/main.e8d58694.js",
-    "static/js/787.e300c42b.chunk.js": "/drinkmaker/static/js/787.e300c42b.chunk.js",
+    "main.js": "/drinkmaker/static/js/main.e56c6a37.js",
+    "static/js/787.cf261eba.chunk.js": "/drinkmaker/static/js/787.cf261eba.chunk.js",
     "index.html": "/drinkmaker/index.html",
     "main.aaa2de7f.css.map": "/drinkmaker/static/css/main.aaa2de7f.css.map",
-    "main.e8d58694.js.map": "/drinkmaker/static/js/main.e8d58694.js.map",
-    "787.e300c42b.chunk.js.map": "/drinkmaker/static/js/787.e300c42b.chunk.js.map"
+    "main.e56c6a37.js.map": "/drinkmaker/static/js/main.e56c6a37.js.map",
+    "787.cf261eba.chunk.js.map": "/drinkmaker/static/js/787.cf261eba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaa2de7f.css",
-    "static/js/main.e8d58694.js"
+    "static/js/main.e56c6a37.js"
   ]
 }
