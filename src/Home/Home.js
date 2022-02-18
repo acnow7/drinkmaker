@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import React from 'react'
+import { Link } from 'react-router-dom' 
 
 function Home({drink, setDrink}) {
 
@@ -21,13 +22,13 @@ function Home({drink, setDrink}) {
           }, [alcohol]);
 
 
-          const handleChange = (e) => {
-            setSearchInput(e.target.value)
-          }
-          const handleSubmit = (e) => {
-            e.preventDefault()
-            setDrink(searchInput)
-          }
+          // const handleChange = (e) => {
+          //   setSearchInput(e.target.value)
+          // }
+          // const handleSubmit = (e) => {
+          //   e.preventDefault()
+          //   setDrink(searchInput)
+          // }
 
 
   return (
@@ -38,39 +39,39 @@ function Home({drink, setDrink}) {
       <button className="btn btn-outline-success" type="submit">Search</button>
     </form>
 </div>
-    <div class="alcohol-Menu">
-    <div class="row">
-      <div class="col" onClick={() => setAlcohol("Gin")}>
+    <div className="alcohol-Menu">
+    <div className="row">
+      <div className="col" onClick={() => setAlcohol("Gin")}>
         Gin
       </div>
-      <div class="col" onClick={() => setAlcohol("Tequila")}>
+      <div className="col" onClick={() => setAlcohol("Tequila")}>
         Tequila
       </div>
-      <div class="col" onClick={() => setAlcohol("Brandy")}>
+      <div className="col" onClick={() => setAlcohol("Brandy")}>
         Brandy
       </div>
-      <div class="col" onClick={() => setAlcohol("Vodka")}>
+      <div className="col" onClick={() => setAlcohol("Vodka")}>
         Vodka
       </div>
-      <div class="col" onClick={() => setAlcohol("Whiskey")}>
+      <div className="col" onClick={() => setAlcohol("Whiskey")}>
         Whiskey
       </div>
-      <div class="col" onClick={() => setAlcohol("Rum")}>
+      <div className="col" onClick={() => setAlcohol("Rum")}>
         Rum
       </div>
     </div>
   </div>
   <div className="home-Image">
- </div><div class="card text-center">
-  <div class="card-header">
+ </div><div className="card text-center">
+  <div className="card-header">
     
   </div>
-  <div class="card-body">
-    <h5 class="card-title">{alcohol} origins</h5>
-    <p class="card-text">{description}</p>
-    <a href="#" class="btn btn-primary">Drinks</a>
+  <div className="card-body">
+    <h5 className="card-title">{alcohol} origins</h5>
+    <p className="card-text">{description}</p>
+    <p className="btn btn-secondary" ><Link to={"/MyDrinks/" + alcohol }>Drinks</Link></p>
   </div>
-  <div class="card-footer text-muted">
+  <div className="card-footer text-muted">
     
   </div>
 </div>

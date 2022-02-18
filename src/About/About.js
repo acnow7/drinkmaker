@@ -1,13 +1,9 @@
 import React from 'react'
 
-const Gin = () => {
-
-    
+export default function About() {
   return (
     <div>
-      
+      About me Information!
     </div>
   )
 }
-
-export default Gin
