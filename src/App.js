@@ -9,7 +9,7 @@ function App() {
   const [randomDrink, setRandomDrink] = useState([]);
 
   useEffect(() => {
-  const url = `https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin`
+  const url = `www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`
   fetch(url)
   .then((response) => response.json())
   .then((data) => {
@@ -28,7 +28,7 @@ function App() {
           >
       {name1.strDrink}
       <img src={name1.strDrinkThumb} alt="drink" width={'150px'} />
-      <button onClick={() => console.log(name1.strDrinkThumb)}>Add to My Team</button>
+      <button onClick={() => console.log(name1.strDrinkThumb)}>Add to My Drinks</button>
       
     </p>
   ));
@@ -65,7 +65,7 @@ function App() {
           <a className="nav-link" aria-current="page" href="#">Random Drink</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" aria-current="page">My drinks</a>
+        <Link to="/MyDrinks"><a className="navbar-brand" >My Drinks</a></Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" aria-current="page" href="#">About</a>
@@ -80,7 +80,7 @@ function App() {
 
 <main>
 <Routes>
-    <Route path='/' element={<Home />}/>
+    <Route path='/' element={<Home drink={drink} setDrink={setDrink} />}/>
     <Route path='/MyDrinks' element={<MyDrinks  />}  />   
     
   </Routes>
