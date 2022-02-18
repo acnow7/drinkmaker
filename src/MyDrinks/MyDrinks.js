@@ -8,6 +8,9 @@ function MyDrinks({myDrink}) {
    console.log(myDrink)
 
   const [removeDrink, setRemoveDrink] = useState(" ")
+  
+  
+
 
   const drinks = myDrink.map(drink1 => {
     return(
@@ -51,12 +54,15 @@ function MyDrinks({myDrink}) {
      </div>
 </div>
 <div>
-<p className="p-Button1"><button type="button" className="btn btn-secondary btn-sm">Remove from your Drinks  -</button></p>
+<p className="p-Button1"><button type="button" className="btn btn-secondary btn-sm" onClick={() => { console.log(myDrink.indexOf(drink1), setRemoveDrink(myDrink.indexOf(drink1)), removeDrinks())}}>Remove from your Drinks  -</button></p>
    </div>
 
 </>
   )})
 
+  function removeDrinks() {
+    myDrink.splice(removeDrink,1)
+  }
 
 
   if (myDrink.length >= 1 ) {

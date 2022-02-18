@@ -50,8 +50,8 @@ useEffect(() => {
   }, []);
   
   
-  
- console.log(randomDrink[0])
+
+
    function saveMyDrink (randomDrink) {
      const drinkAdd = [...myDrink];
      drinkAdd.push(randomDrink[0])
@@ -99,7 +99,15 @@ useEffect(() => {
      </div>
      <p className="p-Button">
      <button type="button" className="btn btn-primary btn-sm" onClick={() => saveMyDrink(randomDrink)}>Add to my Drinks</button></p>
-<p className="p-Button1"><button type="button" className="btn btn-secondary btn-sm" >Get a new Drink  -</button></p>
+<p className="p-Button1"><button type="button" className="btn btn-secondary btn-sm" onClick={() => {
+  const url1 = `https://www.thecocktaildb.com/api/json/v1/1/random.php`
+  fetch(url1)
+  .then((response) => response.json())
+  .then((data) => {
+
+    setRandomDrink(data.drinks)
+  })
+}}>Get a new Drink  -</button></p>
    </div>
    
    
