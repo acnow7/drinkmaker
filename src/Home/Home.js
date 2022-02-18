@@ -3,7 +3,7 @@ import React from 'react'
 
 function Home({drink, setDrink}) {
 
-    const [alcohol, setAlcohol] = useState("gin");
+    const [alcohol, setAlcohol] = useState("Gin");
     const [description, setDescription] = useState("")
     const [searchInput, setSearchInput] = useState("")
 
@@ -15,7 +15,7 @@ function Home({drink, setDrink}) {
               .then((data) => {
                 
                 
-                console.log(data.ingredients[0].strDescription)
+              
                 setDescription(data.ingredients[0].strDescription)
               });
           }, [alcohol]);

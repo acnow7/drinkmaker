@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/acnow7/golfReact/static/css/main.04179b6f.css",
-    "main.js": "/acnow7/golfReact/static/js/main.a8053fcd.js",
-    "static/js/787.e12c6981.chunk.js": "/acnow7/golfReact/static/js/787.e12c6981.chunk.js",
-    "index.html": "/acnow7/golfReact/index.html",
-    "main.04179b6f.css.map": "/acnow7/golfReact/static/css/main.04179b6f.css.map",
-    "main.a8053fcd.js.map": "/acnow7/golfReact/static/js/main.a8053fcd.js.map",
-    "787.e12c6981.chunk.js.map": "/acnow7/golfReact/static/js/787.e12c6981.chunk.js.map"
+    "main.css": "/drinkmaker/static/css/main.f0575459.css",
+    "main.js": "/drinkmaker/static/js/main.a80a9657.js",
+    "static/js/787.cf261eba.chunk.js": "/drinkmaker/static/js/787.cf261eba.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/drinkmaker/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/drinkmaker/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/drinkmaker/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/drinkmaker/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/drinkmaker/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/drinkmaker/index.html",
+    "main.f0575459.css.map": "/drinkmaker/static/css/main.f0575459.css.map",
+    "main.a80a9657.js.map": "/drinkmaker/static/js/main.a80a9657.js.map",
+    "787.cf261eba.chunk.js.map": "/drinkmaker/static/js/787.cf261eba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04179b6f.css",
-    "static/js/main.a8053fcd.js"
+    "static/css/main.f0575459.css",
+    "static/js/main.a80a9657.js"
   ]
 }
