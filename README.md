@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Project Overview
+The Golf Info App.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Links 
+- [Project Github Repository](https://git.generalassemb.ly/acnow/golfReact-)  
 
-In the project directory, you can run:
+- [Deployment Link]()
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In this project Golf Info App, I am building a interactive plataform React based where the user have access 
+to incredible amount of data and stadisticts of his favorite professional golf player. He would be able to acceess
+individual player biographical information for a given year and tour, for all players. This includes height, weight, place of birth, date of birth, residence, and college. Also Official World Golf Rankings and points for top the 200 players. Also historical tournaments statistics for a given player, among other data.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API
 
-### `npm run build`
+[https://developer.sportradar.com/](https://developer.sportradar.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is the API that I would be using for my App. Making different request for different type of information.
+Here is a sample of data fetched. [Data Fetch](http://api.sportradar.us/golf/trial/v3/en/players/wgr/2019/rankings.json?api_key=u7s35a5wy4w49huft39zypj9)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Wireframes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Mobile](/IMG_0044.jpg), Minimalist look, hamburger menu on the topleft corner, all in one column. 
+- [Desktop](/IMG_0045.jpg) Hamburger menu transitions to an inline flex menu, home page with logo and actual ranking leaderboard. 
+- [React Tree](image0.jpeg) My React Tree framwork
 
-### `npm run eject`
+## MVPS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+|  Components | Priority | Estimated Time | Actual Time Invested
+|---|---| ---| ---|
+|Basic layout Idea and frame| H | 3 hrs | 5hrs 
+| CSS and styling | H | 6 hrs | --hrs | --hrs 
+|API data doc and retrieval| H | 16 hrs | --hrs
+|User Input Fields functionality| H | 5hrs | --hrs  
+|Bottons and handlers | H | 4hrs | --hrs 
+|Navigation Routers | H | 4 hrs | --hrs
+|Final Touches and debbuging | H | 3 hrs | --hrs
+|Total | H | 41 hrs | --hrs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## POST MVPS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+|  Components | Priority | Estimated Time | Actual Time Invested
+|---|---| ---| ---|
+|Saving favorite players functionality | M | 5 hrs | --hrs 
+|Saving storing and updating fav tournaments  | L | 8 hrs | --hrs 
+|Animation in all routes | L | 10 hrs | --hrs
+|More propertiers for narrow search| L | 5hrs | --hrs  
+|Total | L | 28 hrs | --hrs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Additional Libraries
+ 
+ - [Google fonts library](https://fonts.google.com/)
+ - [Bootstrap](https://getbootstrap.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Code Snippet
 
-### Code Splitting
+-------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Issues and Resolutions
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-------
