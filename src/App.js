@@ -14,27 +14,7 @@ function App() {
   const [randomDrink, setRandomDrink] = useState([]);
   const [myDrink, setMyDrink] = useState([]);
 
-//   useEffect(() => {
-//   const url = `www.thecocktaildb.com/api/json/v1/1/search.php?s=${alcohol}`
-//   fetch(url)
-//   .then((response) => response.json())
-//   .then((data) => {
-  
-//     setDrink(data.drinks)
-//     console.log(data.drinks)
-//   })
-// }, []);
 
-// const list = drink.map((name1, index) => (
-//   <p className="listClick"
-//     key={index}
-//         >
-//     {name1.strDrink}
-//     <img src={name1.strDrinkThumb} alt="drink" width={'150px'} />
-//     <button onClick={() => console.log(name1.strDrinkThumb)}>Check recipe</button>
-    
-//   </p>
-// ));
 
 
 
