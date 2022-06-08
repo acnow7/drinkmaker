@@ -19,7 +19,7 @@ export default function Footer() {
       </div>
       <div></div>
       <div className="footer-copyright text-center py-3">
-        <i className="fab fa-facebook"></i>© 2022 Copyright: Powered by
+        <i className="fab fa-facebook"></i>© 2022 Copyright: Coded by
         <a href="https://acnow7.github.io/portafolio/#"> Adnan Varela</a>
       </div>
     </footer>
